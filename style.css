@@ -164,8 +164,8 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:25px 7%;display:flex;j
 
 
 .avatar{
-  width: 270px !important;
-  height: 363px !important; /* 808:1086 ratio */
+  width: 808px !important;
+  height: 1086px !important;
   border-radius: 30px !important;
   overflow: hidden !important;
   padding: 0 !important;
@@ -174,7 +174,7 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:25px 7%;display:flex;j
 .avatar img{
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;
+  object-fit:contain!important;
   object-position: center !important;
   display: block !important;
   border-radius: 30px !important;
