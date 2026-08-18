@@ -102,32 +102,30 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:25px 7%;display:flex;j
 #education .current-education{
   grid-column:1 / -1;
 }
-/* Skills final compact fix */
+/* Skills compact - corrected */
 #skills .skills-grid{
   display:grid !important;
   grid-template-columns:repeat(2, 1fr) !important;
-  gap:12px !important;
+  gap:10px !important;
   align-items:start !important;
 }
 
 #skills .skill{
-  min-height:0 !important;
-  height:90px !important;
-  padding:14px 18px !important;
-  display:flex !important;
-  flex-direction:column !important;
-  justify-content:center !important;
+  min-height:unset !important;
+  height:auto !important;
+  padding:10px 16px !important;
+  box-sizing:border-box !important;
 }
 
 #skills .skill h3{
   font-size:17px !important;
   line-height:1.2 !important;
-  margin:0 0 5px 0 !important;
+  margin:0 0 3px 0 !important;
 }
 
 #skills .skill p{
   font-size:13px !important;
-  line-height:1.3 !important;
+  line-height:1.25 !important;
   margin:0 !important;
 }
 @media(max-width:800px){.links{display:none;position:absolute;top:76px;left:0;right:0;padding:20px 7%;background:rgba(7,7,11,.95);flex-direction:column;gap:18px}.links.open{display:flex}.menu-btn{display:block}.hero{padding-top:130px;flex-direction:column;text-align:center}.hero-copy{max-width:650px}.lead{margin-left:auto;margin-right:auto}.actions,.socials{justify-content:center}.hero-card{height:350px}.about-grid,.project-grid,.skills-grid,.education-grid{grid-template-columns:1fr}.section{padding-left:6%;padding-right:6%}.narrow{padding-top:100px;padding-bottom:80px}footer{flex-direction:column;gap:8px;text-align:center}}
