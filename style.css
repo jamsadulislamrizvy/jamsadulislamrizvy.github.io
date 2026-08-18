@@ -164,20 +164,18 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:25px 7%;display:flex;j
 
 
 .avatar{
-  width:190px !important;
-  height:230px !important;
-  min-width:190px;
-  min-height:230px;
-  border-radius:24px !important;
-  overflow:hidden !important;
-  padding:0 !important;
+  width: 270px !important;
+  height: 363px !important; /* 808:1086 ratio */
+  border-radius: 30px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
 }
 
 .avatar img{
-  width:100% !important;
-  height:100% !important;
-  object-fit:contain;
-  object-position:center top;
-  border-radius:24px;
-  display:block;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  border-radius: 30px !important;
 }
