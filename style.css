@@ -109,5 +109,25 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:25px 7%;display:flex;j
   font-size:14px;
   line-height:1.5;
 }
+/* Education cards - compact */
+#education .education-card{
+  padding:18px 20px;
+  min-height:120px;
+}
+
+#education .education-card h3{
+  font-size:18px;
+  margin:6px 0;
+}
+
+#education .education-card p{
+  font-size:14px;
+  line-height:1.5;
+  margin:0;
+}
+
+#education .education-grid{
+  gap:14px;
+}
 @media(max-width:800px){.links{display:none;position:absolute;top:76px;left:0;right:0;padding:20px 7%;background:rgba(7,7,11,.95);flex-direction:column;gap:18px}.links.open{display:flex}.menu-btn{display:block}.hero{padding-top:130px;flex-direction:column;text-align:center}.hero-copy{max-width:650px}.lead{margin-left:auto;margin-right:auto}.actions,.socials{justify-content:center}.hero-card{height:350px}.about-grid,.project-grid,.skills-grid,.education-grid{grid-template-columns:1fr}.section{padding-left:6%;padding-right:6%}.narrow{padding-top:100px;padding-bottom:80px}footer{flex-direction:column;gap:8px;text-align:center}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
