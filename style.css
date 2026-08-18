@@ -130,5 +130,34 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:25px 7%;display:flex;j
   line-height:1.4 !important;
   margin:0 !important;
 }
+.contact-links{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+  margin-top:24px;
+  flex-wrap:wrap;
+}
+
+.contact-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:125px;
+  padding:13px 22px;
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:14px;
+  background:rgba(255,255,255,.07);
+  color:white;
+  text-decoration:none;
+  font-weight:700;
+  transition:.3s ease;
+}
+
+.contact-btn:hover{
+  transform:translateY(-4px);
+  border-color:#b88bfa;
+  box-shadow:0 8px 25px rgba(184,139,250,.22);
+}
 @media(max-width:800px){.links{display:none;position:absolute;top:76px;left:0;right:0;padding:20px 7%;background:rgba(7,7,11,.95);flex-direction:column;gap:18px}.links.open{display:flex}.menu-btn{display:block}.hero{padding-top:130px;flex-direction:column;text-align:center}.hero-copy{max-width:650px}.lead{margin-left:auto;margin-right:auto}.actions,.socials{justify-content:center}.hero-card{height:350px}.about-grid,.project-grid,.skills-grid,.education-grid{grid-template-columns:1fr}.section{padding-left:6%;padding-right:6%}.narrow{padding-top:100px;padding-bottom:80px}footer{flex-direction:column;gap:8px;text-align:center}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
