@@ -109,9 +109,9 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:25px 7%;display:flex;j
 }
 
 #skills .skill{
-  height:108px !important;
-  min-height:108px !important;
-  padding:18px 22px !important;
+  height:105px !important;
+  min-height:105px !important;
+  padding:20px 24px !important;
   box-sizing:border-box !important;
 
   display:flex !important;
