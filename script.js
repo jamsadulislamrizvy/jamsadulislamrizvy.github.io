@@ -1,4 +1,9 @@
-const phrases = ["CSE Student", "Web Developer", "Problem Solver", "Future Software Engineer"];
+const phrases = [
+  "CSE Student",
+  "AI & Machine Learning Enthusiast",
+  "Problem Solver",
+  "Future Software Engineer"
+];
 const typing = document.getElementById("typing");
 let p = 0, c = 0, deleting = false;
 
